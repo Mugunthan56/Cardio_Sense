@@ -1,0 +1,42 @@
+{
+  "model_type": "logistic_regression",
+  "features": [
+    "age",
+    "trestbps",
+    "chol",
+    "thalach"
+  ],
+  "feature_labels": [
+    "Age",
+    "Blood Pressure (mm Hg)",
+    "Cholesterol (mg/dL)",
+    "Max Heart Rate (bpm)"
+  ],
+  "coefficients": [
+    0.3179033553661859,
+    0.5500798401691456,
+    0.8506951887746582,
+    -1.604162866387827
+  ],
+  "intercept": -0.09603139081076949,
+  "feature_means": [
+    55.048611111111114,
+    130.45833333333334,
+    249.90972222222223,
+    149.81944444444446
+  ],
+  "feature_stds": [
+    8.97011230351406,
+    14.647655766177886,
+    60.1375637363625,
+    22.342862636700545
+  ],
+  "training_info": {
+    "dataset": "UCI Cleveland Heart Disease",
+    "samples": 144,
+    "accuracy": 0.8275862068965517,
+    "precision": 0.7272727272727273,
+    "recall": 0.8,
+    "f1_score": 0.761904761904762
+  }
+}
