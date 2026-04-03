@@ -14,7 +14,11 @@ const _spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
+<<<<<<< HEAD
   title: 'HeartGuard: AI Heart Disease Predictor',
+=======
+  title: 'CARDIO SENSE: DATA DRIVEN CARDIAC DISEASE RISK',
+>>>>>>> a3421f2 (Initial project upload - full stack AI project)
   description:
     'AI-powered heart disease risk prediction dashboard for educational purposes.',
 }
