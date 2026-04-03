@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Inter, Space_Grotesk } from 'next/font/google'
 
+// @ts-ignore: Allow importing global CSS in Next.js layout
 import './globals.css'
 
 const _inter = Inter({
@@ -14,11 +15,7 @@ const _spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
-  title: 'HeartGuard: AI Heart Disease Predictor',
-=======
-  title: 'CARDIO SENSE: DATA DRIVEN CARDIAC DISEASE RISK',
->>>>>>> a3421f2 (Initial project upload - full stack AI project)
+  title: 'Cardio Sense: AI Heart Disease Predictor',
   description:
     'AI-powered heart disease risk prediction dashboard for educational purposes.',
 }
